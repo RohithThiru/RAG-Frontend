@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://metro.proxy.rlwy.net:57473",
+  baseURL: "https://rag-backend-1-akb5.onrender.com",
 });
 
 export const uploadDocument = (file) => {

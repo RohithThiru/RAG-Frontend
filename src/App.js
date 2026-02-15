@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 const api = axios.create({
-  baseURL: "http://metro.proxy.rlwy.net:57473",
+  baseURL: "https://rag-backend-1-akb5.onrender.com",
 });
 
 export default function App() {
